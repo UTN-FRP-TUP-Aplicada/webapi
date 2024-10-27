@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cliente", "Cliente\Cliente.csproj", "{72D63F56-8E4B-4FAC-A2C3-41C323044E64}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "webapiNetCore", "webapiNetCore\webapiNetCore.csproj", "{221F5D93-3492-4A42-9C64-AE6851E55CF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{DF6150BE-CA1D-42A8-BB48-98DE7D3F1645}"
+	ProjectSection(SolutionItems) = preProject
+		..\Dockerfile.mss = ..\Dockerfile.mss
+		..\Dockerfile.mss.webapi = ..\Dockerfile.mss.webapi
+		..\Dockerfile.webapi = ..\Dockerfile.webapi
+		..\Dockerfile.webapiNetCore = ..\Dockerfile.webapiNetCore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webapi", "webapi\webapi.csproj", "{2D2CCCCC-2409-40D5-8E26-43AD35345864}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{09C0C5DE-6BED-4462-8975-A9BD17284293}"
+	ProjectSection(SolutionItems) = preProject
+		..\scripts\createdatabase.sql = ..\scripts\createdatabase.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72D63F56-8E4B-4FAC-A2C3-41C323044E64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72D63F56-8E4B-4FAC-A2C3-41C323044E64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72D63F56-8E4B-4FAC-A2C3-41C323044E64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72D63F56-8E4B-4FAC-A2C3-41C323044E64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{221F5D93-3492-4A42-9C64-AE6851E55CF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{221F5D93-3492-4A42-9C64-AE6851E55CF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{221F5D93-3492-4A42-9C64-AE6851E55CF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{221F5D93-3492-4A42-9C64-AE6851E55CF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D2CCCCC-2409-40D5-8E26-43AD35345864}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D2CCCCC-2409-40D5-8E26-43AD35345864}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D2CCCCC-2409-40D5-8E26-43AD35345864}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D2CCCCC-2409-40D5-8E26-43AD35345864}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {236F1735-14E4-4BE8-94CF-9D3B4240B85D}
+	EndGlobalSection
+EndGlobal
